@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Horoscope</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Découvre ton signe astrologique</h1>
+    <p>Remplis les informations ci-dessous :</p>
+
+    <form id="formAstro">
+
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" required><br><br>
+
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" required><br><br>
+
+        <label>Date de naissance :</label><br>
+        <input type="number" id="jour" placeholder="Jour" min="1" max="31" required>
+        <input type="number" id="mois" placeholder="Mois" min="1" max="12" required>
+        <input type="number" id="annee" placeholder="Année" required><br><br>
+
+        <label for="genre">Genre :</label><br>
+        <select id="genre" required>
+            <option value="">Choisir</option>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option>
+        </select><br><br>
+
+        <label for="heure">Heure de naissance :</label><br>
+        <input type="time" id="heure" required><br><br>
+
+        <button type="submit">Voir mon signe</button>
+
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>

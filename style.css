@@ -1,0 +1,69 @@
+/* Style général */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fb;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Titres */
+h1{
+    color: #333;
+}
+
+/* Formulaire */
+form{
+    width: 350px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* Labels */
+label{
+    font-weight: bold;
+}
+
+/* Inputs et select */
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Boutons */
+button{
+    width: 100%;
+    padding: 10px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background: #574fdb;
+}
+
+/* Image horoscope */
+#imageSigne{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Description */
+p{
+    font-size: 16px;
+    color: #444;
+    max-width: 500px;
+    margin: auto;
+}
